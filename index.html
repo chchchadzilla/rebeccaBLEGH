@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rebeccaBLEGH! - Super Shitty GenAI Post Proto Alt-Hyphy Salsacore</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Creepster&family=Permanent+Marker&display=swap');
+        
+        .font-bangers {
+            font-family: 'Bangers', cursive;
+        }
+        .font-creepster {
+            font-family: 'Creepster', cursive;
+        }
+        .font-marker {
+            font-family: 'Permanent Marker', cursive;
+        }
+        
+        .blood-splatter {
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><path d="M20,20 Q30,10 40,20 T60,20 T80,10 T90,30 Q80,40 70,30 T50,40 T30,30 T20,20" fill="darkred" opacity="0.7"/></svg>');
+            background-size: 100px 100px;
+            background-repeat: repeat;
+            opacity: 0.1;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            pointer-events: none;
+        }
+        
+        .skull-bg {
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6v6a6 6 0 0 1-6 6v0a6 6 0 0 1-6-6V6"></path><path d="M4 6h16"></path><circle cx="12" cy="17" r="1"></circle><circle cx="8" cy="12" r="1"></circle><circle cx="16" cy="12" r="1"></circle></svg>');
+            background-size: 50px 50px;
+            background-repeat: repeat;
+            opacity: 0.05;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            pointer-events: none;
+        }
+        
+        .comic-border {
+            border: 4px solid black;
+            box-shadow: 8px 8px 0 rgba(0,0,0,0.2);
+        }
+        
+        .button-bleed {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .button-bleed::after {
+            content: "";
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            right: -10px;
+            bottom: -10px;
+            background: linear-gradient(45deg, #ff0000, #990000, #ff0000);
+            opacity: 0;
+            transition: opacity 0.3s;
+            z-index: -1;
+        }
+        
+        .button-bleed:hover::after {
+            opacity: 0.3;
+        }
+        
+        .nav-link {
+            position: relative;
+        }
+        
+        .nav-link::after {
+            content: "";
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: #ff0000;
+            transition: width 0.3s;
+        }
+        
+        .nav-link:hover::after {
+            width: 100%;
+        }
+        
+        .band-member {
+            transition: transform 0.3s;
+        }
+        
+        .band-member:hover {
+            transform: translateY(-10px) rotate(5deg);
+        }
+        
+        .pricing-card {
+            transition: all 0.3s;
+        }
+        
+        .pricing-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        
+        .hall-of-maim {
+            background: repeating-linear-gradient(
+                45deg,
+                #111,
+                #111 10px,
+                #222 10px,
+                #222 20px
+            );
+        }
+        
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            10%, 30%, 50%, 70%, 90% { transform: translateX(-5px); }
+            20%, 40%, 60%, 80% { transform: translateX(5px); }
+        }
+        
+        .shake-on-hover:hover {
+            animation: shake 0.5s;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white relative overflow-x-hidden">
+    <div class="blood-splatter"></div>
+    <div class="skull-bg"></div>
+    
+    <!-- Header -->
+    <header class="bg-black py-4 px-6 sticky top-0 z-50 border-b-4 border-red-800">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <div class="flex items-center mb-4 md:mb-0">
+                <div class="bg-red-600 w-12 h-12 rounded-full flex items-center justify-center mr-3">
+                    <i class="fas fa-skull text-2xl"></i>
+                </div>
+                <h1 class="font-creepster text-3xl md:text-4xl text-red-500">
+                    rebecca<span class="text-white">BLEGH</span><span class="text-red-500">!</span>
+                </h1>
+            </div>
+            
+            <nav class="flex space-x-1 md:space-x-4 flex-wrap justify-center">
+                <a href="#" class="nav-link font-bangers text-xl px-3 py-1 bg-red-900 rounded-md hover:bg-red-700 transition">rebeccaHOME!</a>
+                <a href="#" class="nav-link font-bangers text-xl px-3 py-1 hover:bg-gray-800 rounded-md transition">aboutbeckyBLEGH!</a>
+                <a href="#" class="nav-link font-bangers text-xl px-3 py-1 hover:bg-gray-800 rounded-md transition">rbbleghARCHIVE!</a>
+                <a href="#" class="nav-link font-bangers text-xl px-3 py-1 hover:bg-gray-800 rounded-md transition">contactbeckyBLEGH!</a>
+                <a href="#" class="nav-link font-bangers text-xl px-3 py-1 hover:bg-gray-800 rounded-md transition">comicBLEGH!</a>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="relative py-16 px-6 bg-gradient-to-b from-red-900 to-black">
+        <div class="container mx-auto flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0 md:pr-10">
+                <h2 class="font-creepster text-5xl md:text-6xl mb-6 text-white">
+                    SUPER SHITTY <span class="text-red-400">GENAI</span> POST PROTO <span class="text-red-400">ALT-HYPHY</span> SALSACORE
+                </h2>
+                <p class="text-xl mb-8 font-marker text-gray-300">
+                    "Music too frequent, comics too shitty, parties too wild... you fuckin BITCH!"
+                </p>
+                <div class="flex space-x-4">
+                    <a href="#latest" class="button-bleed bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-full text-lg transition">
+                        Latest Release
+                    </a>
+                    <a href="#store" class="button-bleed bg-gray-800 hover:bg-gray-700 text-white font-bold py-3 px-6 rounded-full text-lg transition">
+                        Get Maimed
+                    </a>
+                </div>
+            </div>
+            
+            <div class="md:w-1/2 comic-border bg-gray-800 p-4 rounded-lg">
+                <div class="relative">
+                    <img src="https://placehold.co/600x400/222/ff0000?text=rebeccaBLEGH!+Band+Photo" alt="rebeccaBLEGH! band photo" class="w-full h-auto rounded">
+                    <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-4">
+                        <p class="font-bangers text-xl text-white">
+                            From left: Wolfman (guitar), Banshee (bass), rebeccaBLEGH! (vocals), Wraith (drums), Vampire (guitar)
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Latest Release -->
+    <section id="latest" class="py-16 px-6 bg-black">
+        <div class="container mx-auto">
+            <h2 class="font-creepster text-4xl mb-12 text-center text-red-500">
+                LATEST MICRO-EP <span class="text-white">#69</span>
+            </h2>
+            
+            <div class="flex flex-col lg:flex-row gap-8">
+                <div class="lg:w-1/2 comic-border bg-gray-900 p-6 rounded-lg">
+                    <div class="flex flex-col md:flex-row gap-6">
+                        <div class="md:w-1/3">
+                            <img src="https://placehold.co/300x300/222/ff0000?text=EP+COVER" alt="Micro EP Cover" class="w-full h-auto rounded">
+                        </div>
+                        <div class="md:w-2/3">
+                            <h3 class="font-bangers text-3xl mb-4 text-red-500">
+                                "Motel 6 Massacre" / "Keg Stand at the Gates of Hell"
+                            </h3>
+                            <p class="mb-4 text-gray-300">
+                                Our latest 2-song masterpiece featuring the adventures of getting banned from another Motel 6 and discovering the secret to eternal life (it's not jäger... ugh, FINE ok, jesus, fine-- SO MAYBE IT IS jäger big fkn whoop... but, like, now can u chill the fk out? bc check it out "hurrr look at me im an rbB! fan i like to spoil surprises hurrrrr" thats wat u fkn sound like rn bro frfr so maybe chill on the fkn smarty mcnerd shit... plus its fuckin jäger AND pbr so, like, maybe u aint know everything u fkn think u do, broseidon... ur fkn unbelievable u kno that? ruin it for everyone why don't u? jfc)
+                            </p>
+                            <div class="flex flex-wrap gap-3 mb-6">
+                                <span class="bg-red-900 text-white px-3 py-1 rounded-full text-sm">deathcore</span>
+                                <span class="bg-red-900 text-white px-3 py-1 rounded-full text-sm">partycore</span>
+                                <span class="bg-red-900 text-white px-3 py-1 rounded-full text-sm">blegh</span>
+                                <span class="bg-red-900 text-white px-3 py-1 rounded-full text-sm">shenanigans</span>
+                            </div>
+                            <audio controls class="w-full mb-6">
+                                <source src="#" type="audio/mpeg">
+                                ur browser don't support audio. bummer, dude.
+                            </audio>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="lg:w-1/2 comic-border bg-gray-900 p-6 rounded-lg">
+                    <h3 class="font-bangers text-3xl mb-4 text-red-500">
+                        coloring book peeps
+                    </h3>
+                    <div class="grid grid-cols-2 gap-4 mb-6">
+                        <img src="https://placehold.co/300x300/222/ffffff?text=Coloring+Page+1" alt="Coloring page 1" class="w-full h-auto rounded">
+                        <img src="https://placehold.co/300x300/222/ffffff?text=Coloring+Page+2" alt="Coloring page 2" class="w-full h-auto rounded">
+                    </div>
+                    <p class="text-gray-300 mb-4">
+                        8 pages of our dumb adventures including: the great taco bell heist, and that time we blew up a porta-potty with fireworks.
+                    </p>
+                    <p class="font-marker text-red-400">
+                        "nobody buys these so they'll be worth millions someday... or it fuckin wont be, u kno? what the fuck ever buy it or dont sheeeeesh"
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- The Band -->
+    <section class="py-16 px-6 bg-gradient-to-b from-black to-gray-900">
+        <div class="container mx-auto">
+            <h2 class="font-creepster text-4xl mb-12 text-center text-red-500">
+                MEET THE <span class="text-white">FUCKUPS</span>
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+                <!-- Rebecca -->
+                <div class="band-member bg-gray-800 p-6 rounded-lg comic-border text-center">
+                    <div class="w-32 h-32 mx-auto mb-4 rounded-full bg-green-700 flex items-center justify-center text-4xl">
+                        <i class="fas fa-skull"></i>
+                    </div>
+                    <h3 class="font-bangers text-2xl mb-2 text-red-500">rebeccaBLEGH!</h3>
+                    <p class="text-gray-300 mb-2"><b>throat🐐</b></p>
+                    <p class="text-sm text-gray-400">
+                        "...u fuckin BITCH" is rebecca "becky" BLEGH!'s catchphrase, and life motto. wears dope/violent snapbacks with dick jokes/insults on them. dopest ai frontchick in all of metal. prof. mayhemist. sings about really, really dumb shit. addicted to brains.
+                    </p>
+                </div>
+                
+                <!-- Vampire -->
+                <div class="band-member bg-gray-800 p-6 rounded-lg comic-border text-center">
+                    <div class="w-32 h-32 mx-auto mb-4 rounded-full bg-red-900 flex items-center justify-center text-4xl">
+                        <i class="fas fa-droplet"></i>
+                    </div>
+                    <h3 class="font-bangers text-2xl mb-2 text-red-500">nosferatits</h3>
+                    <p class="text-gray-300 mb-2"><b>shredstick #1🎸</b></p>
+                    <p class="text-sm text-gray-400">
+                        claims to be 800 (she really 1,200 but u know how women be lmao wylin) and still can't hold her tequila. but unholy shit does she shred. specializes in face-melting solos. known to shoot bottle rockets under the door at you while you poop. no, seriously.
+                    </p>
+                </div>
+                
+                <!-- Wolfman -->
+                <div class="band-member bg-gray-800 p-6 rounded-lg comic-border text-center">
+                    <div class="w-32 h-32 mx-auto mb-4 rounded-full bg-yellow-800 flex items-center justify-center text-4xl">
+                        <i class="fas fa-wolf-pack-battalion"></i>
+                    </div>
+                    <h3 class="font-bangers text-2xl mb-2 text-red-500">wolfgang van halen (no relation)</h3>
+                    <p class="text-gray-300 mb-2"><b>shredstick #2🎸</b></p>
+                    <p class="text-sm text-gray-400">
+                        howls at every full moon and every breakdown. has been banned from every petsmart in the country. ...and every motel 6. ...on the planet. don't get him started about super 8s.
+                    </p>
+                </div>
+                
+                <!-- Banshee -->
+                <div class="band-member bg-gray-800 p-6 rounded-lg comic-border text-center">
+                    <div class="w-32 h-32 mx-auto mb-4 rounded-full bg-blue-900 flex items-center justify-center text-4xl">
+                        <i class="fas fa-ghost"></i>
+                    </div>
+                    <h3 class="font-bangers text-2xl mb-2 text-red-500">maimie cootertassle</h3>
+                    <p class="text-gray-300 mb-2"><b>low-frequency love machine operator 👩🏻‍⚕️</b></p>
+                    <p class="text-sm text-gray-400">
+                        her screams can shatter glass and eardrums. once made an entire audience piss themselves ...as fuck. complains a lot, eats your soul if you bitch about it
+                    </p>
+                </div>
+                
+                <!-- Wraith -->
+                <div class="band-member bg-gray-800 p-6 rounded-lg comic-border text-center">
+                    <div class="w-32 h-32 mx-auto mb-4 rounded-full bg-purple-900 flex items-center justify-center text-4xl">
+                        <i class="fas fa-skull-crossbones"></i>
+                    </div>
+                    <h3 class="font-bangers text-2xl mb-2 text-red-500">fuckknuckle the unyielding</h3>
+                    <p class="text-gray-300 mb-2"><b>digguh-digguh & jingle-jangle🥁</b></p>
+                    <p class="text-sm text-gray-400">
+                        so fast he's literally a blur. rumor has it he's actually three raccoons smoking meth in a trench coat, but he smokes unfiltered lucky strikes in one hit, so, i mean, YOU can check if you wanna. cuz, like... fuck ALL that u feel me
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Store -->
+    <section id="store" class="py-16 px-6 bg-gray-900">
+        <div class="container mx-auto">
+            <h2 class="font-creepster text-4xl mb-12 text-center text-red-500">
+                GET <span class="text-white">MAIMED</span>
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Digital Only -->
+                <div class="pricing-card bg-gray-800 p-6 rounded-lg comic-border hover:border-red-500 transition">
+                    <h3 class="font-bangers text-2xl mb-4 text-center text-white">
+                        DIGITAL ONLY
+                    </h3>
+                    <div class="text-center mb-6">
+                        <span class="font-bold text-4xl text-red-500">$2</span>
+                        <span class="text-gray-400">/release</span>
+                    </div>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>2 new songs</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>digital download</span>
+                        </li>
+                        <li class="flex items-center text-gray-500">
+                            <i class="fas fa-times text-red-500 mr-2"></i>
+                            <span>no comic book</span>
+                        </li>
+                        <li class="flex items-center text-gray-500">
+                            <i class="fas fa-times text-red-500 mr-2"></i>
+                            <span>no hall of maim</span>
+                        </li>
+                    </ul>
+                    <button class="w-full bg-gray-700 hover:bg-gray-600 text-white font-bold py-3 px-4 rounded transition">
+                        BUY NOW
+                    </button>
+                </div>
+                
+                <!-- Digital Bundle -->
+                <div class="pricing-card bg-gray-800 p-6 rounded-lg comic-border hover:border-red-500 transition">
+                    <h3 class="font-bangers text-2xl mb-4 text-center text-white">
+                        DIGITAL BUNDLE
+                    </h3>
+                    <div class="text-center mb-6">
+                        <span class="font-bold text-4xl text-red-500">$5</span>
+                        <span class="text-gray-400">/release</span>
+                    </div>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>2 new songs</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>digital download</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>pdf coloring book</span>
+                        </li>
+                        <li class="flex items-center text-gray-500">
+                            <i class="fas fa-times text-red-500 mr-2"></i>
+                            <span>no hall of maim</span>
+                        </li>
+                    </ul>
+                    <button class="w-full bg-red-700 hover:bg-red-600 text-white font-bold py-3 px-4 rounded transition">
+                        BUY NOW
+                    </button>
+                </div>
+                
+                <!-- Physical Bundle -->
+                <div class="pricing-card bg-gray-800 p-6 rounded-lg comic-border hover:border-red-500 transition">
+                    <h3 class="font-bangers text-2xl mb-4 text-center text-white">
+                        PHYSICAL BUNDLE
+                    </h3>
+                    <div class="text-center mb-6">
+                        <span class="font-bold text-4xl text-red-500">$10</span>
+                        <span class="text-gray-400">/release</span>
+                    </div>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>2 new songs</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>digital download</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>physical coloring book</span>
+                        </li>
+                        <li class="flex items-center text-gray-500">
+                            <i class="fas fa-times text-red-500 mr-2"></i>
+                            <span>no hall of maim</span>
+                        </li>
+                    </ul>
+                    <button class="w-full bg-red-700 hover:bg-red-600 text-white font-bold py-3 px-4 rounded transition">
+                        BUY NOW
+                    </button>
+                </div>
+                
+                <!-- Hall of Maim -->
+                <div class="pricing-card bg-gray-800 p-6 rounded-lg comic-border border-2 border-red-500">
+                    <div class="absolute top-0 right-0 bg-red-500 text-white px-3 py-1 font-bold text-sm rounded-bl-lg">
+                        MOST POPULAR
+                    </div>
+                    <h3 class="font-bangers text-2xl mb-4 text-center text-white">
+                        HALL OF MAIM
+                    </h3>
+                    <div class="text-center mb-6">
+                        <span class="font-bold text-4xl text-red-500">$100</span>
+                        <span class="text-gray-400">/one-time</span>
+                    </div>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>everything in digital bundle</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>physical coloring book</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>your face in next comic</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>ur own personal violent death in story (no u cant fuckin pick what it is fuck u its a surprise, dick-- in fact if anyone else requests im doin the fuckin opposite of what u req how about that shit jfc)</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>name in hall of maim FOREVER</span>
+                        </li>
+                    </ul>
+                    <button class="w-full bg-black hover:bg-gray-900 text-white font-bold py-3 px-4 rounded transition">
+                        GET MAIMED
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Subscription Options -->
+            <div class="mt-16">
+                <h3 class="font-bangers text-3xl mb-6 text-center text-red-500">
+                    SUBSCRIBE & <span class="text-white">SAVE</span>
+                </h3>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <!-- 3 Month -->
+                    <div class="pricing-card bg-gray-800 p-6 rounded-lg comic-border">
+                        <h4 class="font-bangers text-xl mb-4 text-center text-white">
+                            3-MONTH SUBSCRIPTION
+                        </h4>
+                        <div class="text-center mb-6">
+                            <span class="font-bold text-3xl text-red-500">$12</span>
+                            <span class="text-gray-400">($4/release)</span>
+                        </div>
+                        <p class="text-center mb-6 text-gray-300">
+                            save 20% on digital bundles for 3 months (6 releases)
+                        </p>
+                        <button class="w-full bg-gray-700 hover:bg-gray-600 text-white font-bold py-3 px-4 rounded transition">
+                            SUBSCRIBE
+                        </button>
+                    </div>
+                    
+                    <!-- 6 Month -->
+                    <div class="pricing-card bg-gray-800 p-6 rounded-lg comic-border border-2 border-red-500">
+                        <h4 class="font-bangers text-xl mb-4 text-center text-white">
+                            6-MONTH SUBSCRIPTION
+                        </h4>
+                        <div class="text-center mb-6">
+                            <span class="font-bold text-3xl text-red-500">$20</span>
+                            <span class="text-gray-400">($3.33/release)</span>
+                        </div>
+                        <p class="text-center mb-6 text-gray-300">
+                            save 33% on digital bundles for 6 months (12 releases)
+                        </p>
+                        <button class="w-full bg-red-700 hover:bg-red-600 text-white font-bold py-3 px-4 rounded transition">
+                            SUBSCRIBE
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Hall of Maim -->
+    <section class="py-16 px-6 bg-black">
+        <div class="container mx-auto">
+            <h2 class="font-creepster text-4xl mb-12 text-center text-red-500">
+                HALL OF <span class="text-white">MAIM</span>
+            </h2>
+            
+            <div class="hall-of-maim p-8 rounded-lg comic-border">
+                <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+                    <div class="bg-gray-900 p-3 text-center font-marker text-red-400">xXxfuckinslayerrrrxXx</div>
+                    <div class="bg-gray-900 p-3 text-center font-marker text-red-400">tacocorp</div>
+                    <div class="bg-gray-900 p-3 text-center font-marker text-red-400">mom</div>
+                    <div class="bg-gray-900 p-3 text-center font-marker text-red-400">dave's bait shack</div>
+                    <div class="bg-gray-900 p-3 text-center font-marker text-red-400">BLEGH420</div>
+                    <div class="bg-gray-900 p-3 text-center font-marker text-red-400">motel6manager</div>
+                    <div class="bg-gray-900 p-3 text-center font-marker text-red-400">jägerunibomber</div>
+                    <div class="bg-gray-900 p-3 text-center font-marker text-red-400">toiletrocket</div>
+                    <div class="bg-gray-900 p-3 text-center font-marker text-red-400">skullcrusher</div>
+                    <div class="bg-gray-900 p-3 text-center font-marker text-red-400">partymarty</div>
+                    <div class="bg-gray-900 p-3 text-center font-marker text-red-400">urmomdotcum</div>
+                    <div class="bg-gray-900 p-3 text-center font-marker text-red-400">fuckinBITCH</div>
+                </div>
+                
+                <div class="mt-8 text-center">
+                    <p class="text-gray-400 mb-4">
+                        these absolute monsters paid to be brutally murdered in our comics. their names will live forever in infamy... or til we stop doing this. u know, its fuckin whatever
+                    </p>
+                    <p class="font-marker text-red-400">
+                        "join them... u fuckin BITCH"
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="py-8 px-6 bg-gray-900 border-t-4 border-red-800">
+        <div class="container mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0">
+                    <h2 class="font-creepster text-2xl text-red-500 mb-2">
+                        rebeccaBLEGH!
+                    </h2>
+                    <p class="text-gray-400">
+                        suuuuper shitty gen-ai post proto alt-hyphy salsacore
+                    </p>
+                </div>
+                
+                <div class="flex space-x-6 mb-6 md:mb-0">
+                    <a href="#" class="text-gray-400 hover:text-red-500 text-2xl">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-red-500 text-2xl">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-red-500 text-2xl">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-red-500 text-2xl">
+                        <i class="fab fa-bandcamp"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-red-500 text-2xl">
+                        <i class="fab fa-spotify"></i>
+                    </a>
+                </div>
+                
+                <div class="text-gray-400 text-sm">
+                    <p>&copy; 2025 rebeccaBLEGH! all rights reserved</p>
+                    <p>no motels were saved from receiving permanent damage (that we didn't pay for) in the making of this band</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        // Simple script for comic book effect on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add shake animation to all comic-border elements on hover
+            const comicBorders = document.querySelectorAll('.comic-border');
+            comicBorders.forEach(el => {
+                el.classList.add('shake-on-hover');
+            });
+            
+            // Add bounce animation to comic borders on page load
+            const elements = document.querySelectorAll('.comic-border');
+            elements.forEach((el, index) => {
+                setTimeout(() => {
+                    el.classList.add('animate-bounce');
+                    setTimeout(() => {
+                        el.classList.remove('animate-bounce');
+                    }, 1000);
+                }, index * 200);
+            });
+            
+            // Fake "BLEGH!" button effect
+            const bleghButtons = document.querySelectorAll('.button-bleed');
+            bleghButtons.forEach(button => {
+                button.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    // Create BLEGH! text element
+                    const blegh = document.createElement('div');
+                    blegh.textContent = 'BLEGH!';
+                    blegh.className = 'absolute font-bangers text-red-500 text-2xl opacity-0 animate-ping';
+                    blegh.style.left = `${Math.random() * 80 + 10}%`;
+                    blegh.style.top = `${Math.random() * 80 + 10}%`;
+                    this.appendChild(blegh);
+                    
+                    // Animate the BLEGH! text
+                    let opacity = 0;
+                    const fadeIn = setInterval(() => {
+                        opacity += 0.1;
+                        blegh.style.opacity = opacity;
+                        if (opacity >= 1) clearInterval(fadeIn);
+                    }, 50);
+                    
+                    // Remove after animation
+                    setTimeout(() => {
+                        const fadeOut = setInterval(() => {
+                            opacity -= 0.1;
+                            blegh.style.opacity = opacity;
+                            if (opacity <= 0) {
+                                clearInterval(fadeOut);
+                                blegh.remove();
+                            }
+                        }, 50);
+                    }, 800);
+                    
+                    // In a real site, this would navigate to the actual page
+                    console.log('Navigating to:', this.getAttribute('href'));
+                });
+            });
+            
+            // Add skull animation to band member icons on hover
+            const bandMemberIcons = document.querySelectorAll('.band-member i');
+            bandMemberIcons.forEach(icon => {
+                icon.addEventListener('mouseenter', function() {
+                    this.classList.add('fa-beat');
+                    setTimeout(() => {
+                        this.classList.remove('fa-beat');
+                    }, 1000);
+                });
+            });
+            
+            // Blood splatter effect when clicking anywhere
+            document.addEventListener('click', function(e) {
+                if (Math.random() > 0.7) { // 30% chance to trigger
+                    const blood = document.createElement('div');
+                    blood.className = 'absolute w-8 h-8 bg-red-600 rounded-full opacity-70 pointer-events-none';
+                    blood.style.left = `${e.clientX - 16}px`;
+                    blood.style.top = `${e.clientY - 16}px`;
+                    blood.style.transform = 'scale(0)';
+                    document.body.appendChild(blood);
+                    
+                    // Animate blood splatter
+                    setTimeout(() => {
+                        blood.style.transition = 'transform 0.3s, opacity 1s';
+                        blood.style.transform = 'scale(1)';
+                    }, 10);
+                    
+                    // Fade out and remove
+                    setTimeout(() => {
+                        blood.style.opacity = '0';
+                        setTimeout(() => {
+                            blood.remove();
+                        }, 1000);
+                    }, 1000);
+                }
+            });
+        });
+    </script>
+</body>
+</html>
